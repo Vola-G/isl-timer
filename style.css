@@ -6,9 +6,11 @@ body {
     margin: 0px;
     padding: 0px;
     height: 100vh;
-    background: rgb(81,2,107);
+    /* background: rgb(81,2,107);
     background: radial-gradient(circle, rgba(81,2,107,1) 0%, rgba(117,8,156,1) 55%, rgba(160,8,210,1) 100%);
-    
+     */
+    background: rgb(61,2,107);
+    background: radial-gradient(circle, rgba(61,2,107,1) 0%, rgba(92,8,156,1) 55%, rgba(126,8,210,1) 100%);
 }
 
 h1 {
