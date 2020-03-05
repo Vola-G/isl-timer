@@ -15,7 +15,7 @@ const counter = setInterval(function() {
     document.getElementById("timer").innerHTML = 
     `<span class="date">${day}<span class="divider">d</span></span>
     <span class="date">${hours}<span class="divider">h</span></span>
-    <span class="date">${minutes}<span class="divider">m</span>
+    <span class="date">${minutes}<span class="divider">m</span></span>
     <span class="date">${seconds}<span class="divider">s</span></span>`;
 
     if(distance < 0){
