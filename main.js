@@ -13,7 +13,10 @@ const counter = setInterval(function() {
     let seconds = Math.floor((distance % (1000 * 60)) / (1000));
 
     document.getElementById("timer").innerHTML = 
-    day + '<span class="date">d </span> '  + hours + '<span class="date">h </span> '  + minutes + '<span class="date">m   </span> ' + seconds + '<span class="date">s   </span>';
+    `<span class="date">${day}<span class="divider">d</span></span>
+    <span class="date">${hours}<span class="divider">h</span></span>
+    <span class="date">${minutes}<span class="divider">m</span>
+    <span class="date">${seconds}<span class="divider">s</span></span>`;
 
     if(distance < 0){
         clearInterval(counter);
